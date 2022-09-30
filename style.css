@@ -116,11 +116,29 @@ img {
   font-size: 13px;
   margin-top: 35px;
   text-align: center;
-}
-.card_text {
+},
+{
+/* The animation code */
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+},
+
+{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  },
+  {
+ .card_text {
   color: #ffffff;
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
   font-weight: 400;
 }
+]
