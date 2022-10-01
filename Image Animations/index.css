@@ -20,7 +20,7 @@ body {
   margin: 0 auto;
   padding: var(--space);
   font-family: "Sura", sans-serif;
-  color: white;
+  color: rgb(204, 248, 10);
   background-color: rgb(29, 30, 34);
 }
 
