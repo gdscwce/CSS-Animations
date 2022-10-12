@@ -1,0 +1,24 @@
+ 
+body {
+	background-color: black;
+}
+
+#moon {
+	  width: 100px;
+      height: 100px;
+      border-radius: 50%;
+	  animation: morph 5s infinite;
+}
+
+@keyframes morph {
+	0% {
+		box-shadow: 80px 80px 0 0 white;
+	}
+	50% {
+		box-shadow: 40px 40px 0 0 white;
+	}
+	100% {
+		box-shadow: 10px 10px 0 0 white;
+	}
+}
+ 
