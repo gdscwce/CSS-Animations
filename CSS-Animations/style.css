@@ -1,0 +1,36 @@
+
+.parent{
+        background-color:hsla(200, 100%, 20%);
+        height: 400px;
+        width: 400px;
+    }
+    .child{
+        background-color: yellow;
+        height: 50%;
+        width: 50%;
+        transition: transform 1s ease-in;
+    }
+
+    .parent:hover .child{
+      animation: left-to-right 1s ease-in forwards 3 alternate;
+      
+    }
+
+    @keyframes left-to-right {
+        0% {
+            background-color: yellow;
+            transform: translateX(0);
+        }
+        33% {
+            transform: translateY(100%);
+        }
+        66% {
+            transform: translateX(100%) translateY(100%);
+        }
+        100% {
+            background-color: blue;
+            transform: translateX(100%);
+        }
+    }
+    
+
